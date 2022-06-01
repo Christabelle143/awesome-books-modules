@@ -1,4 +1,4 @@
-import {Ls} from './Ls.js';
+import Ls from './Ls.js';
 class BooksList extends Ls {
     books = [];
   
