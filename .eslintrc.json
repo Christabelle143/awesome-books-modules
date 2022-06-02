@@ -18,8 +18,16 @@
       "js": "always", "json": "always"
     }]
   },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      },
+      "caseSensitive": false
+    }
+  },
   "ignorePatterns": [
     "dist/",
     "build/"
-  ]
+  ] 
 }
