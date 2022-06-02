@@ -1,5 +1,6 @@
-import { BooksList } from './modules/BooksList.js';
+import BooksList from './modules/BooksList.js';
 import './modules/Date.js';
+
 const form = document.getElementById('add-book');
 const inputAuthor = document.getElementById('author');
 const inputTitle = document.getElementById('title');
@@ -7,6 +8,7 @@ const bookList = document.getElementById('book-list');
 
 const bookListClass = new BooksList(form, inputAuthor, inputTitle, bookList);
 bookListClass.init();
+// spa
 const navContainer = document.querySelectorAll('.nav-container li');
 const navContainerArray = Array.from(navContainer);
 const sections = document.querySelectorAll('section');

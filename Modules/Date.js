@@ -1,5 +1,6 @@
-import { DateTime } from './luxon.js';  
+import { DateTime } from './luxon.js';
+
 const dateTag = document.querySelector('.date');
-const date = DateTime.now().toFormat('LLL dd yyyy, hh:mm:ss a');
-dateTag.innerHTML = date;
-export default date;
+const datetime = DateTime.now().toLocaleString(DateTime.DATE_MED_WITH_WEEKDAY);
+dateTag.innerHTML = datetime;
+export default datetime;

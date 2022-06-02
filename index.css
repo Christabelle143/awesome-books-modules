@@ -1,168 +1,167 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    width: 100%;
-  }
-  
-  header {
-    margin-top: 4rem;
-  }
-  
-  h1 {
-    text-align: center;
-    margin: 1rem 0;
-  }
-  
-  #maincontainer,
-  section {
-    margin: 0 auto;
-    width: 628px;
-  }
-  
-  #book-list,
-  .nav-container,
-  footer .copy {
-    border: 2px solid black;
-  }
-  
-  #add-book {
-    display: flex;
-    flex-direction: column;
-    padding-top: 24px;
-    align-items: center;
-  }
-  
-  .bookcontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 12px 12px;
-  }
-  
-  .bookcontainer:nth-child(even) {
-    background-color: #00f;
-    color: #fff;
-  }
-  
-  .remove-book {
-    width: 10%;
-    height: 30%;
-    border: 4px solid black;
-  }
-  
-  .book-title {
-    font-size: 20px;
-    font-weight: normal;
-    width: 12px;
-    line-height: 0.9;
-  }
-  
-  .book-author {
-    font-size: 20px;
-    font-weight: normal;
-    width: 12px;
-    line-height: 0.9;
-  }
-  
-  .horizontal {
-    width: 30%;
-    margin: 20px auto;
-    background-color: black;
-  }
-  
-  .text {
-    text-align: center;
-  }
-  
-  #author {
-    margin: 10px;
-  }
-  
-  #title {
-    margin-bottom: 10px;
-  }
-  
-  .btn {
-    width: 100px;
-    background-color: #00f;
-    color: #fff;
-  }
-  
-  nav {
-    width: 100%;
-    padding: 10px;
-    text-align: right;
-  }
-  
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .nav-container > * {
-    margin: 10px 1rem;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  nav ul li {
-    margin-left: 10px;
-  }
-  
-  nav ul li::after {
-    content: "";
-    border-right: 1px solid #000;
-    padding-right: 10px;
-  }
-  
-  nav ul li:last-child::after {
-    border-right: 0;
-  }
-  
-  nav ul li a {
-    color: #000;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    color: #00f;
-  }
-  
-  footer {
-    margin-top: 4rem;
-    width: 100%;
-    padding: 10px;
-  }
-  
-  footer .copy {
-    padding: 10px 1rem;
-  }
-  
-  section#contact-section ul {
-    list-style-position: inside;
-  }
-  
-  section#contact-section ul li {
-    margin: 10px 0;
-  }
-  
-  section.tab {
-    display: none;
-  }
-  
-  section.tab.active {
-    display: block;
-  }
-  
-  .date {
-    margin-top: 10px;
-    font-weight: bold;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  margin-top: 4rem;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#maincontainer,
+section {
+  margin: 0 auto;
+  width: 628px;
+}
+
+#book-list,
+.nav-container,
+footer .copy {
+  border: 2px solid black;
+}
+
+#add-book {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  align-items: center;
+}
+
+.bookcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px 12px;
+}
+
+.bookcontainer:nth-child(even) {
+  background-color: #00f;
+  color: #fff;
+}
+
+.remove-book {
+  width: 10%;
+  height: 30%;
+  border: 4px solid black;
+}
+
+.book-title {
+  font-size: 20px;
+  font-weight: normal;
+  width: 12px;
+  line-height: 0.9;
+}
+
+.book-author {
+  font-size: 20px;
+  font-weight: normal;
+  width: 12px;
+  line-height: 0.9;
+}
+
+.horizontal {
+  width: 30%;
+  margin: 20px auto;
+  background-color: black;
+}
+
+.text {
+  text-align: center;
+}
+
+#author {
+  margin: 10px;
+}
+
+#title {
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 100px;
+  background-color: #00f;
+  color: #fff;
+}
+
+nav {
+  width: 100%;
+  padding: 10px;
+  text-align: right;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container > * {
+  margin: 10px 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li::after {
+  content: "";
+  border-right: 1px solid #000;
+  padding-right: 10px;
+}
+
+nav ul li:last-child::after {
+  border-right: 0;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #00f;
+}
+
+footer {
+  margin-top: 4rem;
+  width: 100%;
+  padding: 10px;
+}
+
+footer .copy {
+  padding: 10px 1rem;
+}
+
+section#contact-section ul {
+  list-style-position: inside;
+}
+
+section#contact-section ul li {
+  margin: 10px 0;
+}
+
+section.tab {
+  display: none;
+}
+
+section.tab.active {
+  display: block;
+}
+
+.date {
+  margin-top: 10px;
+  font-weight: bold;
+}
